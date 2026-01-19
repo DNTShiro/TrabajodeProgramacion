@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class GestorInventario {
+
+    public static void main(String arg[]) {
+        Aplicacion ap;
+        int op;
+        ap = new Aplicacion();
+            op = ap.menu();
+            ap.ejecutar(op);
+    }
+}
